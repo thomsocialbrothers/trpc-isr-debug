@@ -16,6 +16,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to the tRPC/NextJS bug demo.</h1>
+
         <p>There should be JSON data below:</p>
 
         <pre>{data ? JSON.stringify(data, null, 2) : undefined}</pre>
