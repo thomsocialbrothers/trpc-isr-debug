@@ -41,6 +41,6 @@ export default function Home() {
 export const getStaticProps = () => {
   return {
     props: {},
-    revalidate: 3600,
+    revalidate: 1,
   };
 };
